@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../Asset/bg2.jpg");
+    font-family: 'Poppins', sans-serif;
+}
+
+/*about*/
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    height: fit-content;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 1200px;
+    margin: 100px auto;
+    gap: 20px;
+}
+
+.about-section .img {
+    flex: 1;
+}
+
+.about-section .img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-section .text {
+    flex: 1;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    /*margin-top: 140px;*/
+    border-radius: 10px;
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+}
+
+.about-section .text p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+}
